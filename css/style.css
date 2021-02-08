@@ -34,13 +34,40 @@ a {
   text-decoration: underline;
 }
 a:visited {
-  color: #7744E9
+  color: #670056;
 }
 a:hover,
 a:focus {
-  color: #0B1BF8
-  text-decoration: underline;
+  color: #0B1BF8;
+  text-decoration: none;
 }
 a:active {
-  color: #010EC7
+  color: #010EC7;
+}
+.button {
+  display: inline-block;
+  background-color: #7744E9;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #4D2A9B;
+  transition: 0.2s opacity;
+}
+.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+.button:active {
+  color: #6143DE;
+}
+.button.contact {
+  background-color: transparent;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 2px solid #7744E9;
+}
+.button.contact:hover {
+  background-color: #7744E9;
+  color: #ffffff;
 }
