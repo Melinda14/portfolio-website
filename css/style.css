@@ -28,3 +28,19 @@ h3 {
 img {
   width: 100%;
 }
+
+a {
+  color: #0BAFF8;
+  text-decoration: underline;
+}
+a:visited {
+  color: #7744E9
+}
+a:hover,
+a:focus {
+  color: #0B1BF8
+  text-decoration: underline;
+}
+a:active {
+  color: #010EC7
+}
