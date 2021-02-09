@@ -31,7 +31,7 @@ img {
 
 a {
   color: #0BAFF8;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:visited {
   color: #670056;
@@ -59,11 +59,11 @@ a:active {
   text-decoration: none;
 }
 .button:active {
-  color: #6143DE;
+  color: #ffffff;
 }
 .button.contact {
   background-color: transparent;
-  color: #ffffff;
+  color: #7744E9;
   text-transform: uppercase;
   border: 2px solid #7744E9;
 }
