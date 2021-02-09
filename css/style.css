@@ -44,6 +44,17 @@ a:focus {
 a:active {
   color: #010EC7;
 }
+.button.contact {
+  background-color: transparent;
+  color: #7744E9;
+  text-transform: uppercase;
+  border: 2px solid #7744E9;
+}
+.button.contact:hover {
+  background-color: #7744E9;
+  color: #ffffff;
+}
+
 .button {
   display: inline-block;
   background-color: #7744E9;
@@ -59,15 +70,5 @@ a:active {
   text-decoration: none;
 }
 .button:active {
-  color: #ffffff;
-}
-.button.contact {
-  background-color: transparent;
-  color: #7744E9;
-  text-transform: uppercase;
-  border: 2px solid #7744E9;
-}
-.button.contact:hover {
-  background-color: #7744E9;
   color: #ffffff;
 }
