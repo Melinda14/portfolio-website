@@ -4,19 +4,19 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
-  color: #303030
+  color: #303030;
 }
 
 h1, h2, h3 {
   line-height: 1.4;
 }
 h1 {
-  font-size: 1.50em
+  font-size: 1.50em;
   font-weight: 800;
 }
 
 h2 {
-  font-size: 1.25em
+  font-size: 1.25em;
   font-weight: 700;
 }
 
@@ -44,21 +44,11 @@ a:focus {
 a:active {
   color: #010EC7;
 }
-.button.contact {
-  background-color: transparent;
-  color: #7744E9;
-  text-transform: uppercase;
-  border: 2px solid #7744E9;
-}
-.button.contact:hover {
-  background-color: #7744E9;
-  color: #ffffff;
-}
 
 .button {
-  display: inline-block;
-  background-color: #7744E9;
-  color: #ffffff;
+  display: inline-block !important;
+  background-color: #7744E9 !important;
+  color: #ffffff !important;
   font-weight: 600;
   padding: 10px;
   border-radius: 3px;
@@ -66,9 +56,30 @@ a:active {
   transition: 0.2s opacity;
 }
 .button:hover {
-  opacity: 0.8;
+  opacity: 0.6;
   text-decoration: none;
 }
 .button:active {
   color: #ffffff;
+}
+
+.button.contact {
+  background-color: transparent !important;
+  color: #7744E9 !important;
+  text-transform: uppercase;
+  border: 2px solid #7744E9;
+}
+.button.contact:hover {
+  background-color: #7744E9 !important;
+  color: #ffffff !important;
+}
+.button.menu {
+  display: inline-block !important;
+  background-color: transparent !important;
+  color: #7744E9 !important;
+  border: 2px solid #7744E9 !important;
+}
+.button.menu:hover {
+  background-color: #7744E9 !important;
+  color: #ffffff !important;
 }
