@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #ffffff;
   font-family: "Montserrat", sans-serif;
@@ -75,5 +78,7 @@ a:active {
 }
 
 header {
-  background-color: #7744E9
+  background-color: #7744E9;
+  padding: 10px;
+  margin: 10px;
 }
