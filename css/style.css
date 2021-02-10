@@ -82,3 +82,8 @@ header {
   padding: 10px;
   margin: 10px;
 }
+
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
