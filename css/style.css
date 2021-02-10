@@ -73,13 +73,7 @@ a:active {
   background-color: #7744E9 !important;
   color: #ffffff !important;
 }
-.button.menu {
-  display: inline-block !important;
-  background-color: transparent !important;
-  color: #7744E9 !important;
-  border: 2px solid #7744E9 !important;
-}
-.button.menu:hover {
-  background-color: #7744E9 !important;
-  color: #ffffff !important;
+
+header {
+  background-color: #7744E9
 }
