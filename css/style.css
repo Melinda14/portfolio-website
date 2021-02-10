@@ -79,7 +79,8 @@ a:active {
 
 header {
   background-color: #7744E9;
-  padding: 10px;
+  text-align: center;
+  padding: 10px 0;
   margin: 10px;
 }
 
@@ -93,4 +94,37 @@ header {
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #7744E9
+}
+#hero h1 {
+  text-align: center;
+}
+.logo {
+  max-width: 250px;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+  width: 100%;
+}
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #ffffff;
+}
+nav > ul > li > a:visited {
+  color: #ffffff;
+}
+nav > ul > li > a:hover {
+  color: #0AD0FA;
+}
+nav > ul > li > a:active {
+  color: #F4D480;
+}
+#hero {
+  background-color: #7744E9;
+  padding: 20px 0;
 }
