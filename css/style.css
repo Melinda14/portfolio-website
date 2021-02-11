@@ -79,7 +79,7 @@ a:active {
 
 header {
   background-color: #7744E9;
-  padding: 20px 0;
+  padding-top: 20px;
   text-align: center;
   box-shadow: 0px 4px 5px 0px rgba(56, 30, 112, 0.7);
   position: fixed;
@@ -133,5 +133,5 @@ nav > ul > li > a:active {
   width: 100%;
 }
 main {
-  padding-top: 180px;
+  padding-top: 160px;
 }
