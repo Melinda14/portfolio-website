@@ -98,7 +98,7 @@ header {
   border-bottom: 1px solid #7744E9
 }
 #hero h1 {
-  text-align: center;
+  text-align: left;
 }
 .logo {
   max-width: 250px;
@@ -111,7 +111,7 @@ nav > ul > li {
   display: inline-block;
 }
 nav > ul > li > a {
-  padding: 0 15px;
+  padding: 0 14px;
   text-transform: uppercase;
   font-weight: 600;
   color: #ffffff;
@@ -133,5 +133,20 @@ nav > ul > li > a:active {
   width: 100%;
 }
 main {
-  padding-top: 160px;
+  padding-top: 140px;
+}
+.social > ul > li {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  font-size: 50px;
+}
+.social > ul {
+  padding: 0;
+}
+#about {
+  padding-bottom: 25px;
+}
+#ebalance {
+  padding-bottom: 25px;
 }
