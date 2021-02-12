@@ -97,6 +97,9 @@ header {
   padding-bottom: 25px;
   border-bottom: 1px solid #7744E9
 }
+#work h2 {
+  text-align: center;
+}
 #hero h1 {
   text-align: left;
 }
@@ -172,6 +175,16 @@ main {
   }
   #hero span{
     display: block;
+  }
+  [class*="col-"] {
+    width: 50%;
+    float: left;
+    padding: 10px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
 }
 @media only screen and (min-width: 1024px) {
