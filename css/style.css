@@ -207,3 +207,31 @@ main {
     margin-right: auto;
   }
 }
+.london-illustration {
+  width: 100%;
+  max-width: 100%;
+  height: auto
+}
+@keyframes color {
+  0% {fill: #0B1BF8;}
+  50% {fill: #CB0BF8;}
+  100% {fill: #f76414;}
+}
+.balloon {
+  animation-duration: 4s;
+  animation-name: color;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes cloud {
+  from {transform: translate(0, 50px);}
+  to {transform: translate(200px,50px);}
+}
+.cloud {
+  animation-duration: 30s;
+  animation-name: cloud;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
