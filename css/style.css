@@ -235,3 +235,10 @@ main {
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+@keyframes cloud-move-reverse {
+  from {transform: translate(200px, 48px);}
+  to {transform: translate(100px, 48px);}
+}
+.cloud-reverse {
+  animation: 15s cloud-move-reverse infinite alternate linear;
+}
