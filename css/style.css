@@ -79,7 +79,6 @@ a:active {
 header {
   background-color: #7744E9;
   padding-top: 20px;
-  text-align: center;
   box-shadow: 0px 4px 5px 0px rgba(56, 30, 112, 0.7);
   position: fixed;
   width: 100%;
@@ -111,17 +110,16 @@ header {
   font-size: 1.00em;
 }
 .logo {
-  max-width: 250px;
+  max-width: 150px;
 }
 nav > ul {
   list-style-type: none;
   padding: 0;
+  float: center;
 }
-nav > ul > li {
-  display: inline-block;
-}
+
 nav > ul > li > a {
-  padding: 0 14px;
+  padding-right: 14px;
   text-transform: uppercase;
   font-weight: 600;
   color: #ffffff;
@@ -240,10 +238,16 @@ footer {
     text-align: unset;
     padding: 20px 15px;
   }
+  .logo {
+    max-width: 250px;
+  }
   nav {
     width: auto;
     float: right;
     margin-top: 4px;
+  }
+  nav > ul > li {
+    display: inline-block;
   }
   main {
     padding-top: 100px;
