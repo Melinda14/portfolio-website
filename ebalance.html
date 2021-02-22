@@ -1,83 +1,91 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    <link href="img/logo/favicon.png" sizes="32x32" rel="icon">
-    <meta charset="utf-8">
-    <title> MelindaDienes UI Designer London</title>
-  </head>
-  <body>
-<header>
-  <div class="container">
-    <a href="index.html"><img src="img/logo/name-logo.png" alt="MelindaDienes" class="logo"></a>
-    <nav>
-      <ul class="navigation">
-        <li><a href="index.html">Work</a></li>
-  			<li><a href="about.html">About</a></li>
-  			<li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-<main>
-  <div class="ebalance-section">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <link href="img/logo/favicon.png" sizes="32x32" rel="icon">
+  <meta charset="utf-8">
+  <title> MelindaDienes UI Designer London</title>
+</head>
+
+<body>
+  <header>
     <div class="container">
-      <h1>eBalance<span>A finance app you can trust.</span></h1>
-    </div>
-  </div>
-
-  <div class="ebalance-section">
-    <div class="container">
-      <picture>
-        <source srcset="img/eBalance/Images@1x/Laptop-mockup@1x.png" media="(max-width:767px)">
-        <img src="img/eBalance/Images@2x/Laptop-mockup@2x.png" alt="eBalance Goals">
-      </picture>
-    </div>
-
-    <div class="container">
-      <h2>Objectives</h2>
-      <p>Branding and prototyping a budgeting responsive website, web app, and mobile app allowing all data on income and expenses to be recorded easily on the go. It displays data on the user’s finances and tells them what they can do to cut costs and save money in a certain amount of time.</p>
-
-      <h2>Challenge</h2>
-      <p>Users will be inputting personal and financial information, so they will want to use a product they can trust. Just like you’d look for in a real financial advisor, the product should be considered reliable, serious, and build confidence in its users. We are largely appealing to those less familiar with the world of finance, so we must convey simplicity and clarity through our brand.</p>
-
-      <h2>My approach</h2>
-      <p>I started the process by defining the brand guidelines. From the user stories I defined 3 user flows and I began to outline the low-fidelity wireframes.
-      Before I immersed in the design, I tested the wireframes on the users and made the appropriate corrections from the test results.
-      I finalized the design and created the desktop version as well.</p>
-    </div>
-
-    <div class="container">
-      <picture>
-        <source srcset="img/eBalance/Images@1x/Dashboard-mockup@1x.png" media="(max-width:767px)">
-        <img src="img/eBalance/Images@2x/Dashboard-mockup@2x.png" alt="eBalance Dashboard" class="dashboard-image">
-      </picture>
-      <div class="row">
-        <a href="files/eBalance-portfolio.pdf" target="_blank" download class="button">View full portfolio</a>
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html"><img src="img/logo/name-logo.png" alt="MelindaDienes" class="logo"></a>
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
       </div>
     </div>
-  </div>
-</main>
-<footer id="contact">
-  <div class="container">
-    <h2>Get in Touch</h2>
-    <p>Do you like my work and want to discuss opportunities? Please get in touch. Skype me at <a href="skype:dns.melinda">dns.melinda</a></p>
-    <a href="mailto:dnsmelinda@gmail.com" class="button contact">Email me</a>
-    <div class="social">
-      <ul>
-        <li><a href="https://www.linkedin.com" target="_blank">
-            <i class="fab fa-linkedin"></i></a></li></a></li>
-        <li><a href="https://www.behance.net" target="_blank">
-            <i class="fab fa-behance-square"></i></a></li></a></li>
-      </ul>
+  </header>
+  <main>
+    <div class="ebalance-section">
+      <div class="container">
+        <h1>eBalance<span>A finance app you can trust.</span></h1>
+      </div>
     </div>
-    <p> Melinda Dienes &copy; 2020</p>
-  </div>
-</footer>
-  </body>
+
+    <div class="ebalance-section">
+      <div class="container">
+        <picture>
+          <source srcset="img/eBalance/Images@1x/Laptop-mockup@1x.png" media="(max-width:767px)">
+          <img src="img/eBalance/Images@2x/Laptop-mockup@2x.png" alt="eBalance Goals">
+        </picture>
+      </div>
+
+      <div class="container">
+        <h2>Objectives</h2>
+        <p>Branding and prototyping a budgeting responsive website, web app, and mobile app allowing all data on income and expenses to be recorded easily on the go. It displays data on the user’s finances and tells them what they can do to cut costs
+          and save money in a certain amount of time.</p>
+
+        <h2>Challenge</h2>
+        <p>Users will be inputting personal and financial information, so they will want to use a product they can trust. Just like you’d look for in a real financial advisor, the product should be considered reliable, serious, and build confidence
+          in its users. We are largely appealing to those less familiar with the world of finance, so we must convey simplicity and clarity through our brand.</p>
+
+        <h2>My approach</h2>
+        <p>I started the process by defining the brand guidelines. From the user stories I defined 3 user flows and I began to outline the low-fidelity wireframes.
+          Before I immersed in the design, I tested the wireframes on the users and made the appropriate corrections from the test results.
+          I finalized the design and created the desktop version as well.</p>
+      </div>
+
+      <div class="container">
+        <picture>
+          <source srcset="img/eBalance/Images@1x/Dashboard-mockup@1x.png" media="(max-width:767px)">
+          <img src="img/eBalance/Images@2x/Dashboard-mockup@2x.png" alt="eBalance Dashboard" class="dashboard-image">
+        </picture>
+        <div class="row">
+          <a href="files/eBalance-portfolio.pdf" target="_blank" download class="button">View full portfolio</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer id="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p>Do you like my work and want to discuss opportunities? Please get in touch. Skype me at <a href="skype:dns.melinda">dns.melinda</a></p>
+      <a href="mailto:dnsmelinda@gmail.com" class="button contact">Email me</a>
+      <div class="social">
+        <ul>
+          <li><a href="https://www.linkedin.com" target="_blank">
+              <i class="fab fa-linkedin"></i></a></li></a></li>
+          <li><a href="https://www.behance.net" target="_blank">
+              <i class="fab fa-behance-square"></i></a></li></a></li>
+        </ul>
+      </div>
+      <p> Melinda Dienes &copy; 2020</p>
+    </div>
+  </footer>
+</body>
+
 </html>
