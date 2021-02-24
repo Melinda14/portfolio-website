@@ -146,7 +146,7 @@ nav > ul > li > a:active {
 .navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid;
+  border-top: 1px solid #ffffff;
 }
 .navtoggle.responsive li:last-child {
   padding: 0 0 10px;
