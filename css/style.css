@@ -116,7 +116,7 @@ nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  float: right;
+  width: 100%;
 }
 
 nav > ul > li > a {
@@ -146,7 +146,7 @@ nav > ul > li > a:active {
 .navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid rgba(255,255,255,0.3);
 }
 .navtoggle.responsive li:last-child {
   padding: 0 0 10px;
@@ -284,6 +284,7 @@ footer {
   .navtoggle li:last-child{
     display: none;
   }
+  
   main {
     padding-top: 100px;
     text-align: left;
