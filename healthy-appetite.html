@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <link href="img/logo/favicon.png" sizes="32x32" rel="icon">
+  <title> MelindaDienes Project eBalance</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html"><img src="img/logo/name-logo.png" alt="MelindaDienes" class="logo"></a>
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="files/cv.pdf" target="_blank" onclick="menuToggle()">Resume</a></li>
+            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="javascript:menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="section" id="healthy">
+      <div class="container">
+        <h1>Healthy Appetite</h1>
+      </div>
+    </div>
+    <div class="section" id="healthy">
+      <div class="container">
+        <div class="column col-lg-5">
+          <picture>
+            <source srcset="img/healthy-appetite/Images@1x/ha@1x.jpg" media="(max-width:767px)">
+            <img src="img/healthy-appetite/Images@1x/ha@1x.jpg" alt="Healthy Appetite">
+          </picture>
+        </div>
+
+        <div class="column col-lg-7">
+          <h2>Objectives</h2>
+            <p>Design a responsive web app for healthy eating habits, that users can access easily on any
+              device and any places. It helps users to change their lifestyle and stay on track with it.
+              Providing support for a healthier lifestyle.</p>
+
+          <h2>Challenge</h2>
+            <p>Users can search for recipes by ingredients and save their favorite meals. To assist on the lifestyle change users can create a weekly meal plan and get help with the shopping list.</p>
+
+          <h2>My approach</h2>
+            <p>I started with competitive analyses and user research that helped me to create the user personas for my project. After defining the user flows, I sketched up the first wireframes and tested the prototype. Finishing this part of the
+              project, I started to plan and design the UI for the app.</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <a href="files/healthy-appetite.pdf" target="_blank" download class="button">Click for more</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer id="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p>Do you like my work and want to discuss opportunities? Please get in touch. Skype me at <a href="skype:dns.melinda">dns.melinda</a></p>
+      <a href="mailto:melinda.dienes14@gmail.com" class="button contact">Email me</a>
+      <div class="social">
+        <ul>
+          <li><a href="https://www.linkedin.com" target="_blank">
+              <i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://www.behance.net" target="_blank">
+              <i class="fab fa-behance-square"></i></a></li>
+        </ul>
+      </div>
+      <p> Melinda Dienes &copy; 2020</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
