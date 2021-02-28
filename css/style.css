@@ -99,6 +99,8 @@ header {
 }
 #work h2 {
   padding-top: 30px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 #hero h1 {
@@ -120,9 +122,9 @@ nav > ul {
 }
 
 nav > ul > li > a {
-  padding-right: 14px;
+  padding-right: 18px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 400;
   color: #ffffff;
 }
 nav > ul > li > a:visited {
@@ -202,6 +204,21 @@ footer {
   font-size: 0.7em
 }
 
+#healthy h1 {
+  padding: 30px 0;
+  text-align: center;
+}
+#healthy h2 {
+  padding-top: 15px;
+}
+#healthy .container h2 p {
+  text-align: left;
+}
+#healthy .container {
+  padding: 0 15px 0;
+}
+
+
 /* Animation*/
 
 .london-illustration {
@@ -278,13 +295,15 @@ footer {
   nav > ul > li {
     display: inline-block;
   }
+
   .navtoggle li:not(:last-child){
     display: inline-block;
   }
   .navtoggle li:last-child{
     display: none;
   }
-  
+
+
   main {
     padding-top: 100px;
     text-align: left;
@@ -320,7 +339,7 @@ footer {
     margin-top: 0
   }
   .col-md-6{
-    width: 100%;
+    width: 50%;
     float: left;
   }
   .col-md-5 {
@@ -361,8 +380,7 @@ footer {
   .profile-image {
     display: block;
     max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+
   }
   .ebalance-section h1, span{
     text-align: center;
@@ -373,6 +391,9 @@ footer {
     padding-top: 30px;
   }
   .ebalance-section p {
+    text-align: left;
+  }
+  #healthy p {
     text-align: left;
   }
 }
@@ -406,6 +427,14 @@ footer {
   }
   .col-lg-8 {
     width: 66.66%;
+  }
+  .col-lg-5 {
+    width: 41.66;
+    float: left;
+  }
+  .col-lg-7 {
+    width: 58.33;
+    float: left;
   }
 
 }
