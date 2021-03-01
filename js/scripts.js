@@ -7,8 +7,3 @@ function menuToggle () {
     x.className = 'navtoggle'
   }
 }
-function menuToggle () {
-  if ($('.fa-bars').is(':visible')) {
-    $('#myNavtoggle').attr('class', 'navtoggle')
-  }
-}
