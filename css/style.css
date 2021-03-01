@@ -202,7 +202,12 @@ footer {
 }
 .ebalance-section h1 span {
   display: block;
+  text-align: center;
 }
+.ebalance-section h1 {
+  text-align: center;
+}
+
 .ebalance-section span {
   font-size: 0.7em;
   font-weight:400;
