@@ -89,8 +89,8 @@ header {
   padding: 0 15px;
 }
 .row {
-  margin: 25px 0;
-  padding: 20px 0;
+  margin: 0;
+  padding: 0;
 }
 
 #work .row {
@@ -334,7 +334,10 @@ footer {
   #hero {
     padding: 40px 0;
   }
-  #hero h1, span, p {
+  #hero h1{
+    text-align: center;
+  }
+  #hero p {
     text-align: center;
     margin-bottom: 30px;
   }
@@ -412,8 +415,15 @@ footer {
   .ebalance-section p {
     text-align: left;
   }
-  #healthy p {
+  .healthy-section p {
     text-align: left;
+  }
+  .healthy-section h1 {
+    margin: 50px 0;
+    text-align: center;
+  }
+  .healthy-section h2 {
+    margin-top: 30px;
   }
 }
 @media only screen and (min-width: 1024px) {
