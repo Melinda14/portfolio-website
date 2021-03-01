@@ -238,7 +238,7 @@ footer {
   height: auto
 }
 @keyframes color {
-  1% {fill: #0B1BF8;}
+  0% {fill: #0B1BF8;}
   50% {fill: #CB0BF8;}
   100% {fill: #f76414;}
 }
