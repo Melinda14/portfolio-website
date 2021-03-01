@@ -33,15 +33,15 @@ img {
 }
 
 a {
-  color: #0BAFF8;
+  color: #001eff;
   text-decoration: none;
 }
 a:visited {
-  color: #670056;
+  color: #9803a8;
 }
 a:hover,
 a:focus {
-  color: #0B1BF8;
+  color: #0b9df8;
   text-decoration: none;
 }
 a:active {
@@ -183,8 +183,19 @@ footer {
 .social > ul {
   padding: 0;
 }
+.about-page main {
+  padding-top: 0;
+}
+#about .row {
+  padding-top: 55px;
+  margin-top: 0;
+}
 #about .container{
-  padding: 40px 15px 0;
+  padding: 0 15px 0;
+}
+.profile {
+  margin-left: -15px;
+  margin-right: -15px;
 }
 .ebalance-section h1 h2 {
   padding-top: 30px;
@@ -208,7 +219,7 @@ footer {
   padding: 30px 0;
   text-align: center;
 }
-#healthy h2 {
+.col-lg-7 h2 {
   padding-top: 15px;
 }
 #healthy .container h2 p {
@@ -227,7 +238,7 @@ footer {
   height: auto
 }
 @keyframes color {
-  0% {fill: #0B1BF8;}
+  1% {fill: #0B1BF8;}
   50% {fill: #CB0BF8;}
   100% {fill: #f76414;}
 }
@@ -302,9 +313,15 @@ footer {
   .navtoggle li:last-child{
     display: none;
   }
+.navtoggle.responsive li {
+  border-top: none;
+  padding: 0;
+}
 
-
-  main {
+.navtoggle.responsive nav {
+  padding: 0;
+}
+  main, .about-page main {
     padding-top: 100px;
     text-align: left;
   }
@@ -365,10 +382,10 @@ footer {
   }
   #about h3 {
     margin-top: 0;
-    padding: 10px, 0;
+    padding: 10px 0;
   }
-  #about .container h1 {
-    margin-top: 30px;
+  #about h1 {
+    margin-top:0;
   }
   .column p {
     text-align: left;
@@ -377,10 +394,12 @@ footer {
     text-align: left;
   }
 
-  .profile-image {
-    display: block;
+  .profile {
+    text-align: center;
+    float: none;
+  }
+  .profile-image img {
     max-width: 400px;
-
   }
   .ebalance-section h1, span{
     text-align: center;
@@ -412,6 +431,10 @@ footer {
     margin-left: 0;
     padding: 0;
   }
+  .profile {
+    margin-left: inherit;
+    margin-right: inherit;
+  }
   .col-lg-3 {
     width: 25%;
     float: left;
@@ -429,11 +452,11 @@ footer {
     width: 66.66%;
   }
   .col-lg-5 {
-    width: 41.66;
+    width: 41.66%;
     float: left;
   }
   .col-lg-7 {
-    width: 58.33;
+    width: 58.33%;
     float: left;
   }
 
