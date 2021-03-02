@@ -176,10 +176,7 @@ footer {
   padding-top: 25px;
   text-align: center;
 }
-footer .container {
-  display: block;
-  float: center;
-}
+
 .social > ul > li {
   list-style-type: none;
   padding: 0;
@@ -196,7 +193,6 @@ footer .container {
 .about-page main {
   padding-top: 0;
 }
-
 #about .container{
   padding: 0 15px 0;
 }
@@ -405,9 +401,7 @@ footer .container {
   .col-md-12{
     width: 100%;
   }
-  .col-lg-9 {
-    margin-bottom: 50px;
-  }
+
 
   #work  h2{
     padding-top: 30px;
@@ -446,9 +440,13 @@ footer .container {
     border-radius: 50em;
     margin-top: 50px;
   }
-  .skills {
-    padding: 0 15px;
+  #skills {
+    padding: 0 10px;
   }
+  #skills {
+    margin-top: 50px;
+  }
+
 
   .ebalance-section h1, span{
     text-align: center;
