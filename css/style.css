@@ -76,7 +76,7 @@ a:active {
   border: none;
 }
 .button.contact:hover {
-  background-color: #ffffff !important;
+  background-color: #02faf6 !important;
   color: #7744E9 !important;
 }
 header {
@@ -210,13 +210,13 @@ footer .container p {
   color: #ffffff;
 }
 .social > ul > li > a:visited {
-  color: #02faf6;
-}
-.social > ul > li > a:hover {
   color: #ffffff;
 }
+.social > ul > li > a:hover {
+  color: #02faf6;
+}
 .social > ul > li > a:active {
-  color: #fa02e5;
+  color: #02faf6;
 }
 
 .copyright {
