@@ -15,17 +15,17 @@ h1, h2, h3 {
 }
 h1 {
   font-size: 1.43em;
-  font-weight: 700;
+  font-weight: 680;
 }
 
 h2 {
   font-size: 1.31em;
-  font-weight: 600;
+  font-weight: 650;
 }
 
 h3 {
   font-size: 1.12em;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 img {
