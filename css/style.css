@@ -15,17 +15,17 @@ h1, h2, h3 {
 }
 h1 {
   font-size: 1.43em;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 1.31em;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h3 {
   font-size: 1.12em;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 img {
@@ -231,6 +231,7 @@ footer .container p {
 #about .container{
   padding: 0 15px 0;
 }
+
 .skills h2 {
   margin-top: 50px;
 }
